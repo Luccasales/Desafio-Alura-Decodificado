@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e Codificador</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="shortcut icon" href="imagens/senha.png" type="imagem/x-icon">
+</head>
+<body>
+    
+            <main class = "main container">
+            <header class = "cabecalho">
+            <img src ="imagens/senha.png" alt ="Logo lucca">
+            <h1>Mensagem codificada</h1>
+        </header>
+        
+        <div class = "container-input">
+            <div class = "input">
+                <textarea id = "input-texto" placeholder="Digite o seu texto aqui..."></textarea>
+                <p>Sem letras maiusculas e sem acentos.</p>
+            </div>
+        
+        
+        <div id= "output">
+            
+            <h2>Aqui vai ser onde ira aparecer a sua mensagem</h2>
+            <span>Digite o texto que deseja criptografar</span>   
+        </div>  
+        </div>
+        
+        <div class= "buttons">
+            <div class = "container-bnt">
+                <button onclick="criptografar()" class= "bnt-criptografar"> Criptografar</button>
+                <button onclick="descriptografar()" class= "bnt-descriptografar"> Desriptografar</button>
+            
+            </div>
+        </div>
+    </main>
+    <footer class ="rodape">
+        <div class="icons">
+            <a href="https://www.instagram.com/luccasales99"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://github.com/Luccasales"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por: Lucca</h3>    
+    </footer>
+    
+
+        <script src="interacao/script.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
